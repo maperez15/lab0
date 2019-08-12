@@ -6,7 +6,7 @@ int main()
 {
     printf("\n\n\t\tCalcularemos tu promedio\n\n\n");
 
-    int n, i1, k,i2, t, i3, n2;
+    int n, i1, k,i2, i3, n2;
     float sum = 0, x, average=0, p=0, sum2=0;
 
 
@@ -48,8 +48,8 @@ int main()
 
 
     printf("\n\n\nTo promedio final es =  %f", (sum2/n));
-    sleep(1000);
-    getchar();
 
+
+    sleep(1000);
     return 0;
 }
